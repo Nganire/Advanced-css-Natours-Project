@@ -1,0 +1,188 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+
+@import "components/bg-video";
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/popup";
+@import "components/story";
+
+
+
+
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+
+@import "pages/home";
+
+
+
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+This will be deleted after we started using sass
+
+*/
+
+// =============================
+
+// We will move the variable to it file
+
+// $color-primary: #55c57a;
+// $color-primary-light:#7ed56f;
+// $color-primary-dark:  #28b485;
+
+// $color-grey-dark: #777;
+// $color-white: #fff;
+// $color-black: #000;
+
+// =====================
+// This will go to the base
+// *,
+// *::after,
+// *::before {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: inherit;
+    
+// }
+// /* Replacing all px to rem */
+// /* By dividing it by 10 */
+// html{
+//     /* font-size: 10px; */
+//     font-size: 62.5%;
+// }
+// body {
+// font-family: "Lato", sans-serif;
+// font-weight: 400;
+// /* font-size: 16px; */
+// line-height: 1.7;
+// color: $color-grey-dark;
+
+// /* padding: 30px; divide by 10 equal 3 rem here under*/
+// padding: 3rem;
+
+// box-sizing: border-box;
+// }
+
+
+// ==========================
+
+
+/* We can also have animations by hovering on the Logo 
+====================================================== */
+/* 
+.Logo:hover{
+
+    animation: moveInRight 1s ease-out;
+}
+ */
+
+
+
+// /* create CSS animations 
+// ========================*/
+
+// @keyframes moveInLeft{
+//     0%{
+//         opacity: 0;
+//         transform: translateX(-10rem);
+//     }
+   
+//     80% {
+
+//         transform: translateX(1rem);
+    
+//     }
+    
+//     100% {
+
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
+
+
+// ====================================
+
+// Animations will move to the animation file.
+// /* animation moveinRight
+// =========================== */
+
+// @keyframes moveInRight{
+//     0%{
+//         opacity: 0;
+//         transform: translateX(10rem);
+//     }
+
+//     80% {
+
+//         transform: translateX(-1rem);
+    
+//     }
+    
+//     100% {
+
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
+
+// @keyframes moveInBottom{
+//     0%{
+//         opacity: 0;
+//         transform: translateX(10rem);
+//     }
+
+//     100% {
+
+//         opacity: 1;
+//         transform: translateY(3rem);
+//     }
+// }
+
+// /* More animations 
+// ===================*/
+
+
+// /* @keyframes moveInLeft{
+//     0%{
+//         opacity: 0;
+//         transform: translateX(-100px) rotate(0deg);
+//     }
+//     60%{
+
+//         transform: rotate(180deg);
+//     }
+
+//     80% {
+
+//         transform: translateX(10px)  rotate(180deg);
+    
+//     }
+    
+//     100% {
+
+//         opacity: 1;
+//         transform: translate(0)  rotate(180deg);
+//     }
+// } */
+// ============================================
